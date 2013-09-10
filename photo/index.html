@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Polo Ornelas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Polo Ornelas Portfolio">
+    <meta name="author" content="Marco Polo Ornelas Alfaro">
+
+    <!-- Le styles -->
+    <link href="./css/lib/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+    
+      body {
+        margin-top: 45px;
+        /*margin-bottom: 150px;*/
+        /*padding-bottom: 50px;*/
+      }
+
+  
+      .sidebar-nav {
+        /*padding: 9px 0;*/
+      }
+    </style>
+    <link href="./css/lib/bootstrap-responsive.css" rel="stylesheet">
+    <link href="./css/overrides.css" rel="stylesheet">
+
+    <script src="js/lib/jquery.js" type="text/javascript"></script>
+    <script src="js/lib/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/lib/underscore.js" type="text/javascript"></script>
+    <script src="js/lib/backbone.js" type="text/javascript"></script>
+    <script src="js/lib/spin.js" type="text/javascript"></script>
+
+    <script src="js/models/Photo.js" type="text/javascript"></script>
+    <script src="js/models/PhotosCollection.js" type="text/javascript"></script>
+    <script src="js/models/Gallery.js" type="text/javascript"></script>
+    <script src="js/models/PortfolioCollection.js" type="text/javascript"></script>
+
+    <script src="js/views/CarouselView.js" type="text/javascript"></script>
+    <script src="js/views/GalleryView.js" type="text/javascript"></script>
+
+    <script src="js/router.js" type="text/javascript"></script>
+
+    <script src="js/spin.js" type="text/javascript"></script>
+
+    <script src="js/app.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <div class="brand" >Polo Ornelas</div>
+          <div class="btn-group pull-right">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+              <!--<i class="icon-user"></i>--> gallery
+              <span class="caret"></span>
+            </a>
+			
+            <ul id="gallery_dropdown" class="dropdown-menu">
+				<!--
+              <li><a href="#">travel</a></li>
+              <li class="divider"></li>
+              <li><a href="#">random</a></li>
+				-->
+            </ul>
+          </div>
+
+          <div id="spinner" class="pull-right" > &nbsp;&nbsp;&nbsp;&nbsp;</div>
+		
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a data-toggle="modal" href="#modalAbout">About</a></li>
+              <li><a data-toggle="modal" href="#modalContact">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+	
+	<div id="main_container" class="container-fluid">
+    <div id="row_container" class="row-fluid override-center" >
+        <img id="img-placeholder" class="shadow" />
+      </div>
+  </div>
+  <!--
+	   <div class="container-fluid">
+      <div class="row-fluid">
+        <img id="img-placeholder" />
+      </div>
+    </div>
+  -->
+	
+		<div class="modal fade" id="modalAbout">
+		  <div class="modal-header">
+		    <button class="close" data-dismiss="modal">x</button>
+		    <h3>About this site</h3>
+		  </div>
+		  <div class="modal-body">
+		    <p>Originally this site was created to show a gallery of pictures from a trip I made across the north of mexico, but my love for photography has evolved and my skills too (with a little help from my friends ;) ). </p>
+			<p>Now this site serves as my portfolio, since I don't see photography like a hobby anymore, this should be my work portfolio, hope you like it :)</p>
+			<p>Please don't reproduce my photos in any way, see the contact section for licensing options</p>
+      <p>All rights reserved</p>
+      <p>Todos los derechos reservados</p>
+		  </div>
+		  <div class="modal-footer">
+		  </div>
+		</div>
+		
+		<div class="modal fade" id="modalContact">
+		  <div class="modal-header">
+		    <button class="close" data-dismiss="modal">x</button>
+		    <h3>Reach me if you like my work</h3>
+		  </div>
+		  <div class="modal-body">
+		    <p>You can follow me on twitter on <a href="http://twitter.com/polographer" target="_blank"> @polographer </a> or drop me an email at poloornelas (at) yahoo.com, we have a <a href="https://www.facebook.com/pages/warstoriescommx/141453335927316">facebook page</a> come and "like" us :) </p> 
+		  </div>
+		  <div class="modal-footer">
+		  </div>
+		</div>
+		
+	
+	<div class="navbar navbar-fixed-bottom">
+		<div class="navbar-inner">
+        <div class="container-fluid">
+			<div class="nav-collapse">
+            	<ul id="nav-menu-bb" class="nav pull-right">
+					      <li id="photo_title" class="bottom-text-navbar" ></li>
+	            	<li class="divider-vertical"></li>
+					      <li class="bottom-text-navbar"><a href="http://www.poloornelas.mx"> &copy; Polo Ornelas 2013 </a></li>
+	            	<li class="divider-vertical"></li>
+              		<li id="prev_photo" class="pointer center-on-bottom-bar">previous</li>
+	            	<li class="divider-vertical"></li>
+              		<li id="next_photo" class="pointer center-on-bottom-bar">next</li>
+            	</ul>
+          	</div><!--/.nav-collapse -->
+      	</div>
+		</div>
+	</div>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- <script src="./js/lib/jquery.js"></script>
+    <script src="./js/lib/jquery-ui.min.js"></script> -->
+    <script src="./js/lib/bootstrap-dropdown.js"></script>
+    <script src="./js/lib/bootstrap-collapse.js"></script>
+    <script src="./js/lib/bootstrap-modal.js"></script>
+	  <script src="./js/lib/jquery.imageloader.js"></script>
+	<!--
+    <script src="./assets/js/bootstrap-transition.js"></script>
+    <script src="./assets/js/bootstrap-alert.js"></script>
+    <script src="./assets/js/bootstrap-scrollspy.js"></script>
+    <script src="./assets/js/bootstrap-tab.js"></script>
+    <script src="./assets/js/bootstrap-tooltip.js"></script>
+    <script src="./assets/js/bootstrap-popover.js"></script>
+    <script src="./assets/js/bootstrap-button.js"></script>
+    <script src="./assets/js/bootstrap-carousel.js"></script>
+    <script src="./assets/js/bootstrap-typeahead.js"></script>
+	-->
+
+    <!-- analytcs -->
+    <script type="text/javascript">
+      if ( window.location.hostname.indexOf('warstories') >= 0){
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-144302-4']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      }
+    </script>
+    <!-- analytcs -->
+
+</body>
+</html>
