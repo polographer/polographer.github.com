@@ -8,11 +8,14 @@ App.Views.CarouselView = Backbone.View.extend({
 	model:App.Models.Gallery,
 	current_index: 1,
 
-	el: $("#nav-menu-bb"),
+	//el: $("#nav-menu-bb"),
+	el: $("body"),
 
 	events: {
 		"click #prev_photo": "previous",
-		"click #next_photo": "next"
+		"click #prev_photo_inside": "previous",
+		"click #next_photo": "next",
+		"click #next_photo_inside": "next"
 	},
 
 	initialize: function() {
