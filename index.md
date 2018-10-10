@@ -13,10 +13,10 @@ I’m a firm believer that curiosity drives this world to a better future.
 [github](https://github.com/polographer)
 
 ### Opinions
-I've always try to document somwhere my findings and my opinions on some sort of blog, right now I'm settle on 
+I've always try to document somwhere my findings and my opinions on some sort of blog, right now I'm settled on 
 [Medium](https://medium.com/@polographer).
 
 ### Photography
-Not doing too much comercial photography but instead working on personal projects, I have take photography courses over my life with great teachers but and also learning the hard way. I shoot digital, 35mm, holga and some polaroid, to be honest I like all formats but the future is digital.
-[Portfolio](http://photo.poloornelas.mx)
+Not doing too much comercial photography but instead working on personal projects, I have take photography courses over my life with great teachers but and also learning the hard way. I shoot digital, 35mm, holga and some polaroid, I like all formats but the future is digital.
+[Portfolio](http://photo.poloornelas.mx) [Instagram](https://www.instagram.com/polographer/)
 
