@@ -3,9 +3,9 @@ My name is Polo Ornelas aka. Marco Polo Ornelas Alfaro, I'm a developer/photogra
 
 ### Developer
 
-Full stack developer and Team Lead. Interested on mobile development and everything connected, my preferred work enviroment is on a *NIX platform, I can work on windows but only as a dumb terminal (I have tested the WSL but its not ready -yet-). I recently changed my daily driver from Mac and I got a pixelbook, so far I'm happy to don't relay on Apple anymore and I love the Pen BUT on the mobile side the iphone is still the king.
+Full-stack developer and Manager. My main focus is web development but I like and everything connected (mobile, servers, web, IoT, etc), my preferred work environment is on any *NIX platform (even Windows with WSL2). I'm a recovering Mac user (PixelBook tester) and I'm currently on a Surface Book. I'm happy to don't rely on Apple anymore. I'm currently testing the Pixel4 as a replacement of my iPhone X.
 
-I love to learn new technology and I usually hack all my computer related stuff, I prefer tomatoWRT over stock firmwares, I have a raspberry Pi with a lot of network services like OpenVPN Server and I have a particle core that remind me why I can do hardware but it's not my strongest point. 
+I love to learn new technology and I usually hack all my computer-related stuff, I prefer tomatoWRT over stock firmware but I recently discover MerlinWRT and I think I got a winner. I have a Raspberry Pi waiting for an automotive project and I have a particle boron that reminds me why I can do hardware but it's not my strongest point. 
 
 I’m a firm believer that curiosity drives this world to a better future.
 
@@ -13,10 +13,10 @@ I’m a firm believer that curiosity drives this world to a better future.
 [github](https://github.com/polographer)
 
 ### Opinions
-I've always try to document somwhere my findings and my opinions on some sort of blog, right now I'm settled on 
-[Medium](https://medium.com/@polographer).
+I've always tried to document somewhere my findings and my opinions on some sort of blog, right now I'm settled on 
+[Imprint.to](https://polographer.imprint.to/).
 
 ### Photography
-Not doing too much comercial photography but instead working on personal projects, I have take photography courses over my life with great teachers but and also learning the hard way. I shoot digital, 35mm, holga and some polaroid, I like all formats but the future is digital.
+Not doing too much commercial photography but instead working on personal projects, I have taken photography courses over my life with great teachers but and also learning the hard way. I shoot digital, 35mm, Holga, and some polaroid, I like all formats but the future is digital.
 [Portfolio](http://photo.poloornelas.mx) / [Instagram](https://www.instagram.com/polographer/)
 
