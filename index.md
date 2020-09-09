@@ -1,9 +1,9 @@
 ### Hello
-My name is Polo Ornelas aka. Marco Polo Ornelas Alfaro, I'm a developer/photographer living in Reston, Virginia. For more information about my work please visit the sites below: 
+My name is Polo Ornelas aka. Marco Polo Ornelas Alfaro, I'm a developer/photographer living in NOVA area. For more information about my work please visit the sites below: 
 
 ### Developer
 
-Full-stack developer and Manager. My main focus is web development but I like and everything connected (mobile, servers, web, IoT, etc), my preferred work environment is on any *NIX platform (even Windows with WSL2). I'm a recovering Mac user (PixelBook tester) and I'm currently on a Surface Book. I'm happy to don't rely on Apple anymore. I'm currently testing the Pixel4 as a replacement of my iPhone X.
+Full-stack Developer and Developer Manager (this means most of my time is spent reviewing pull requests, but I still don't like burndown charts). My main focus is web development but I like and everything connected (mobile, servers, web, IoT, etc), my preferred work environment is on any *NIX platform (even Windows with WSL2). I'm a recovering Mac user (PixelBook tester) and I'm currently on a Surface Book. I'm happy to don't rely on Apple anymore. I'm currently testing the Pixel4 as a replacement of my iPhone X.
 
 I love to learn new technology and I usually hack all my computer-related stuff, I prefer tomatoWRT over stock firmware but I recently discover MerlinWRT and I think I got a winner. I have a Raspberry Pi waiting for an automotive project and I have a particle boron that reminds me why I can do hardware but it's not my strongest point. 
 
