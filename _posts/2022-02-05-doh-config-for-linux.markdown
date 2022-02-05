@@ -84,6 +84,7 @@ name_servers=127.0.0.1
 Then restart your raspberry, for some reason if you only restart the network it may not work.
 And that should be all, name resolution will now go via clodflared. If you are running on the command line there is really no way to test this because http://1.1.1.1/help uses javascript and neither links nor lynx are capable of running it. The only real test is to shutdown cloudflared.
 
+---
+#### Links
 
-Links;
-https://docs.pi-hole.net/guides/dns/cloudflared/#installing-cloudflared
+[Installing cloudflared on linux](https://docs.pi-hole.net/guides/dns/cloudflared/#installing-cloudflared)
