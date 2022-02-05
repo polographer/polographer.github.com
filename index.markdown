@@ -18,8 +18,7 @@ I’m a firm believer that curiosity drives this world to a better future.
 Continue at: [Linked-in](http://www.linkedin.com/in/poloornelas) 
 
 ### Opinions
-I've always tried to document somewhere my findings and my opinions on a personal blog, you will find it here:  
-[Imprint.to](https://polographer.imprint.to/).
+I've always tried to document somewhere my findings and my opinions on a personal blog, you will find my latest iteration [here](/blog.html).
 
 ### Photography
 I only work on personal projects, using digital, 35mm, Holga, and some polaroid, I like all formats but the future is digital. See my portfolio [here](http://photo.poloornelas.mx) and follow me at [Instagram](https://www.instagram.com/polographer/)
