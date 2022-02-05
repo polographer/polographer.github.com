@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "A New Hope"
+date:   2022-02-04 13:26:51 -0500
+categories: update meta
+tags: update meta welcome scarcasm
+author: Polo Ornelas
+---
+Like everything in life all is a cycle, everything that is new becomes old and the old becomes new again. Seems like the guys on imprint.to abandon their platform when I was about to publish my new awesome post, and I'm platform-less again.
+
+It's a first world problem, nothing to create a gofundme campaign, but seems like I have to take care of the issue myself (since you probably know my rant with Medium).
+
+So, I'm taking full advantage of GitHub pages and going to create my handmade blog with help of Jekyll, which I know is cheating, but you know developers; we occasionally take shortcuts.
+
+So go on, indulge yourself (that's right, kick off your shoes), and don't forget to follow me on [Twitter](http://www.twitter.com/polographer), or if you are [old-fashioned](https://en.wikipedia.org/wiki/Old_fashioned_(cocktail)) (but refined), bookmark this page.
+
+Polo.
