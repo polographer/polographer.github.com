@@ -57,7 +57,10 @@ sudo systemctl status cloudflared
 
 ## resolv
 The second part is to configure resolv to use our local DNS
+
+{% highlight shell %}
 sudo nano /etc/resolvconf.conf
+{% endhighlight %}
 
 Uncomment line #7 the one that says name_servers
 {% highlight shell %}
