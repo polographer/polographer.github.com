@@ -128,10 +128,12 @@ trust self signed
 Settings -> General -> About -> Certificate Trust Settings, and there is a section called "ENABLE FULL TRUST FOR ROOT CERTIFICATES"
 
 
-
-
 code icons
 /usr/lib/code-server/src/browser/media
+
+#remote access
+Fix the "Authentication Required to Create Managed Color Device"
+http://c-nergy.be/blog/?p=12043
 
 My only regret; I should have bought the cellular-capable iPad, maybe in a couple of years ...
 
