@@ -139,7 +139,8 @@ My only regret; I should have bought the cellular-capable iPad, maybe in a coupl
 Bonus points: watchdog
 https://diode.io/raspberry%20pi/running-forever-with-the-raspberry-pi-hardware-watchdog-20202/
 
-
+Firx rpi 4 
+https://github.com/neutrinolabs/xrdp/issues/2060
 
 Links;
 https://marcelwiget.blog/2018/12/02/tether-rpi-to-ipad-pro-via-ethernet-over-usb-c/
