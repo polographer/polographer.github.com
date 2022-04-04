@@ -9,7 +9,7 @@ Web development on iPad Pro and a Raspberry Pi Zero 2 W
 
 I have tested all major platforms for development (mostly web development); all of them have drawbacks. Hardware, software, UI, compatibility, cost, etc. Unless you are a fanboy that cannot see above your head you will realize that choosing a developer environment is “choose your pain”.
 
-My last adventure is probably something that by design is not optimal, but it made sense to me, let me explain to you why; I'm a web developer with photography as a hobby, after using a photo editor with a pen directly on the screen you realize that the mouse is just "old", the more natural way to edit photos is with a digital pen. But at the same time, I'm a web developer, and I need some kind of *nix environment to be able to develop sanely.
+My last adventure is probably something that by design is not optimal, but it made sense to me, let me explain to you why; I'm a web developer with photography as a hobby, after using a photo editor with a pen directly on the screen you realize that the mouse i   s just "old", the more natural way to edit photos is with a digital pen. But at the same time, I'm a web developer, and I need some kind of *nix environment to be able to develop sanely.
 
 Windows, ChromeOS, and iOS support digital pen, in my opinion, iOS and Windows support it "better" than ChromeOS. On the other side Windows, ChromeOS and Mac, and Linux have some kind of *nix environment.
 
@@ -31,26 +31,73 @@ Oh boy! it was quick to do photo editing, way faster than windows. So I begin th
 
 This was at the beginning of the year 2021, the iPad Pro with an M1 was just launched and I started to think if it was possible to do my photo editing on the iPad and do my coding on a remote machine, I'm interested in some machine learning so I started researching about this, and I found the Nvidia Jetson Nano, it was a sign, I was going to develop remotely from the iPad on the Jetson, having access to the best of the tools for what I need. And with a CUDA environment. 
 
-I'm sold, it's time to do some shopping.
+At the same time I learned that some people were pluggin a raspberry on the usb-c port, this also provides a point to point ethernet connection between the ipad and the raspberry. Of course I was intrigued and thinking on all the posibilities, it sounds like a WSL on hardware :).
+
+I'm sold, time to do some shopping.
 
 ## Which iPad 
 This is an easy one; any with USB-C, from there choose whatever you can afford.
 
-While the iPad Pro supports thunderbolt, the air and the mini provide interesting advantages, just think what are your external devices needs. For me is mostly a SD car reader.
+While the iPad Pro supports thunderbolt, the air and the mini provide interesting advantages, just think what are your external devices needs. For me is mostly a SD car reader, for some people it may be an external hard drive, midi interface, etc.
 
-The external monitor support for ipad is in reality junk, ignore that.
+The external monitor support for ipad is junk, dont use it to make decisions.
+
+## keyboard and mouse
+
+Apple has a tendency of selling "basic functionality" as accesory (like the phone cases), the magic keyboard is no exeption and gives you something precious; "a extra power port". That means you can charge the ipad while the usb-c is in use. There is another thing that provides; magnets, I'll tak about this later.
+
+The logitech one doesnt provide power, but it provides a quick "transofmration" to tablet mode, where the apple one you need to detach it and later put a case, the apple one is a little inconvinient if you need to go to tablet mode.
+
+Again; you will have to choose your own pain.
 
 # sd card
 
-# applications
+Plain and simple, you want speed, go to a A2 (or higher) sd card. Unscientific test has proven than sandisk excels here;
 
-# ssh shell
+https://www.amazon.com/gp/product/B07FCMKK5X/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1
 
-# Configuration
+# applications on iOS
+You will need a set of applciations to communicate with the raspberry.
 
-First things are basics, get the Raspberry Pi OS Lite. You can get graphical interface later if needed, but the idea is to squeeze as much as possible power as possible. Graphical interfaces are heavy even if they are on linux.
+## remote shell 
 
-First disable everything not needed;
+This is probably one of the biggest pieces of the cake, most of the communication with the raspberry will be done via SSH
+
+The best client for iOS is Termius. However is seriously expensive (100 usd per year). The second best ssh client donationware ~~free~~, but it's also open source. Go ahead and download Blink Shell !
+
+https://apps.apple.com/us/app/blink-shell-code-editor/id1594898306
+
+WARNING: The app has recently been revamped to be "donationware", the free version will allow you to do anything you need, but it will nag you to subscribe. While I think its fair from the developers to ask for money, I also think that free software should be nag free software. I'm open to suggestions here.
+
+There are 3 important things to know for the ssh iOS
+
+### iOS will kill apps it you don't protect them
+
+
+### ssh is nice but mosh is the future
+
+Mosh can connect and recover connections across networks
+Mosh can connect and recover connections across networks
+
+### you will need the "files" provider
+
+### configuration is 
+
+
+## remote desktop
+
+If you plan to use a remote desktop, I recommend you Microsoft RDP client;
+
+https://apps.apple.com/us/app/remote-desktop-mobile/id714464092
+
+Open source purist will disagree with me, but vnc is wonky cross platform; copy and paste depends on the server, and the speed is awful, and not even talk about the huge hack for the headless setup or the fact that the iOS clients are horrible.
+
+RDP is even capable of "retina" like display, and the mouse/keyboard works excellent, just like in the ipad. 
+
+
+# Raspberry Configuration
+
+First things are basics, get the Raspberry Pi OS Lite. 
 
 ## Initial Config
 

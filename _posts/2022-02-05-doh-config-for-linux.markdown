@@ -7,6 +7,16 @@ tags: linux raspberry security privacy
 author: Polo Ornelas
 ---
 
+## This is no longer the best way to do, DNSCrypt-proxy is the way to go
+
+The new cloudflared daemon doesn't install like this, you have to install it on a different way and I advise you to go to DNSCrypt-proxy it provide better functionality and its easier to install;
+
+[Cloudflare instructions](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/dns-over-https-client/)
+
+[DNSCrypt Install instructions](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-linux)
+
+## keeping the old post for historical purposes : 
+
 There is a lot of tutorials for setting up DoH for pi-hole, however what about a simple(r) thing? just configure DoH to use on your local Linux, that's a topic commonly ignored. This is useful if you are using Linux as a daily driver, you are trying to evade some kind of DNS blocking, or bypass crappy DNS servers from your ISP.
 The configuration involves installing cloudflared, configuring it as DNS proxy, and then configuring resolv to use your DNS proxy.
 
