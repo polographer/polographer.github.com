@@ -60,3 +60,11 @@ code icons
 
 ---
 
+# Links
+https://diode.io/raspberry%20pi/running-forever-with-the-raspberry-pi-hardware-watchdog-20202/
+https://marcelwiget.blog/2018/12/02/tether-rpi-to-ipad-pro-via-ethernet-over-usb-c/
+https://discussions.apple.com/thread/7738477
+https://learnembeddedsystems.co.uk/overclocking-the-raspberry-pi-zero-2
+
+
+
