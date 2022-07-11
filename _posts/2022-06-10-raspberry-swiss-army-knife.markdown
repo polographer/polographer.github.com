@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raspberry Pi; the swiss army knife of our generation"
-date:   2022-06-10 13:26:51 -0500
+date:   2022-07-10 13:26:51 -0500
 categories: development raspberry
 author: Polo Ornelas    
 tags: linux raspberry development guides
