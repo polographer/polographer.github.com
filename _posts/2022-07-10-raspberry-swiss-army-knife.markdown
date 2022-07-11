@@ -157,9 +157,7 @@ You will need a set of applications to communicate with the raspberry.
 
 This is probably one of the biggest pieces of the cake, most of the communication with the raspberry will be done via SSH
 
-The best client for iOS is Termius. However, is seriously expensive (100 USD per year). The second best ssh client is ~~free~~ donationware, but it's also open source. Go ahead and download Blink Shell!
-
-https://apps.apple.com/us/app/blink-shell-code-editor/id1594898306
+The best client for iOS is Termius. However, is seriously expensive (100 USD per year). The second best ssh client is ~~free~~ donationware, but it's also open source. Go ahead and download [Blink Shell](https://apps.apple.com/us/app/blink-shell-code-editor/id1594898306)!
 
 **WARNING:** The app has recently been revamped to be "donationware", the free version will allow you to do anything you need, but it will nag you to subscribe. While I think it's fair for the developers to ask for money, I also think that free software should be nag-free software. I'm open to suggestions here.
 
@@ -215,9 +213,7 @@ ssh-copy-id id_rsa <servername>
 
 ## Remote Desktop
 
-If you plan to use a remote desktop, I recommend you Microsoft RDP client;
-
-https://apps.apple.com/us/app/remote-desktop-mobile/id714464092
+If you plan to use a remote desktop, I recommend you [Microsoft RDP client](https://apps.apple.com/us/app/remote-desktop-mobile/id714464092);
 
 Open source purists will disagree with me, but VNC is wonky cross-platform; copy and paste depends on the server, and the speed is awful, and not even talk about the huge hack for the headless setup on the raspberry or the fact that the iOS clients are horrible.
 
