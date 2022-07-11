@@ -283,6 +283,7 @@ GEM
 PLATFORMS
   aarch64-linux
   armv7l-linux-eabihf
+  ruby
   x86_64-linux
 
 DEPENDENCIES
