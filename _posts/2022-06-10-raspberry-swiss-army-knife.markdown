@@ -4,6 +4,7 @@ title:  "Raspberry Pi; the swiss army knife of our generation"
 date:   2022-06-10 13:26:51 -0500
 categories: development raspberry
 author: Polo Ornelas    
+tags: linux raspberry development guides
 ---
 
 I have tested all major platforms for development (mostly web development); all of them have drawbacks. Hardware, software, UI, compatibility, cost, etc. Unless you are a fanboy that cannot see above your head you will realize that choosing a developer environment is “choose your pain”.
