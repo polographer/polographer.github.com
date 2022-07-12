@@ -7,6 +7,8 @@ author: Polo Ornelas
 tags: linux raspberry development guides
 ---
 
+### (how to use a raspberry with an iPad Pro)
+
 I have tested all major platforms for development (mostly web development); all of them have drawbacks. Hardware, software, UI, compatibility, cost, etc. Unless you are a fanboy that cannot see above your head you will realize that choosing a developer environment is “choose your pain”.
 
 My last adventure is probably something that by design is not optimal, but it made sense to me, let me explain to you why; I'm a web developer with photography as a hobby, after using a photo editor with a pen directly on the screen you realize that the mouse its just "old", the more natural way to edit photos is with a digital pen. But at the same time, I'm a web developer, and I need some kind of *nix environment to be able to develop sanely.
@@ -257,7 +259,7 @@ And bingo !, now you can attach it to the back of the iPad
 
 # PS. I like it
 
-For me, it worked; I usually got a Macbook for work and I don't see any reason to buy a computer for personal use. I think the iPad solves and exceed my expectations, it has quirks, and sometimes I need my wife's Macbook Pro (to flash the SD), but 99% of it works.
+For me, it worked; I usually got a Macbook for work and I don't see any reason to buy a computer for personal use. I think the iPad solves and exceed my expectations, it has quirks, and sometimes I need my wife's Macbook Pro (to flash the SD), but 99% of the time it works.
 
 The next post will be about tighter integration between Linux and iOS aka notifications.
 
