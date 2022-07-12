@@ -256,6 +256,11 @@ And bingo !, now you can attach it to the back of the iPad
 ![view 1](/assets/images/IMG_7606.JPG "view 1")
 ![view 2](/assets/images/IMG_7609.JPG "view 2")
 
+It also work great if you prefer to use a Zero (this is a Z2W)
+
+![z2w 1](/assets/images/IMG_8126.JPG "z2w 1")
+![z2w 2](/assets/images/IMG_8127.JPG "z2w 2")
+
 
 # PS. I like it
 
