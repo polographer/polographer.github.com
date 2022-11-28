@@ -16,4 +16,4 @@ Short story; it works. Long story, it looks amazing.
 ![beautiful look](/assets/images/IMG_9669.JPG "leica cl + godox lux junior")
 ![tasty panda](/assets/images/IMG_9673.JPG "leica cl + godox lux junior")
 
-
+Now that you know the answer, follow me on [instagram](https://www.instagram.com/polographer) to see my pictures.
