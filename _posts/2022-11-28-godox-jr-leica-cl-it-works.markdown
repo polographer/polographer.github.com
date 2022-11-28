@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "godox lux junior + leica CL = it works"
-date:   2022-11-28 17:26:51 -0500
-categories: photography leica compatibility leicacl godox godoxluxjunior
+date:   2022-11-28 12:26:51 -0500
+categories: photography
 author: Polo Ornelas    
 tags: photography leica compatibility leicacl godox godoxluxjunior
 ---
